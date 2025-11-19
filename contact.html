@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conatct us</title>
+    <style>
+        h2,p,fieldset,h3{
+            text-align: center;
+        }
+        .head ,h3 {
+            color: rgb(12, 191, 236,0.5) ;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(9, 9, 9, 0.7)), url(/img4.jpeg);
+            color: #fff;
+        }
+
+        fieldset{
+            background-color: rgba(135, 209, 227, 0.8);
+            border-radius: 5px 5px 5px 5px ;
+        }
+        .btn{
+            background-color: #fff;
+            border-radius: 5px 5px 5px 5px ;
+            color:  rgb(12, 191, 236,0.9);
+            height: 30px;
+            width: 70px;
+        }
+        .btn:hover{
+            background-color: rgb(18, 18, 18,0.5);
+            box-shadow: 2px 2px 2px black;
+            border: none;
+        }
+        li,a{
+            font-size: 16px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        nav{
+            margin-left: 350px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+        }
+        .navlinks{
+            list-style: none;
+        }
+        .navlinks li{
+            display: inline-block;
+            padding:0px 20px ;
+        }
+        .navlinks li :hover{
+            text-decoration: underline;
+            color: rgb(12, 191, 236,0.7);
+            text-shadow: 5px 5px 5px rgb(12, 191, 236,0.7);
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+
+        <div class="navlinks">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About us</a></li>
+                <li><a href="/Services.html">services</a></li>
+                <li><a href="/gallary.html">Gallary</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2 class="head">Mind bridge</h2>
+    <p>
+        For more information contact us using the following
+    </p>
+    <p>
+        0775326464 | 0763571268
+    </p>
+    <p>
+        Mindbridge.ug.ac
+    </p>
+    <p>
+        working hours <br>
+        8am - 4pm 
+    </p>
+    <H3>Where to find us ;</H3>
+        <p> PO.Box.434566 <br> </p>
+       <p> Jinja road , Kampala <br> Uganda </p>
+    <br>
+    <form action="">
+        <fieldset>
+            <h2> INQUIRES </h2>
+            <label for="name">Full name:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email">
+            <br>
+            <br>
+            <label for="inqtopics">What is your inquiry about:</label>
+            <br>
+            <select name="" id="">
+                <option value="">Workshop Info</option>
+                <option value="">Downloadable Guides</option>
+                <option value=""> Mental Health Support</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="" id="" cols="70" rows="10" placeholder="type inquiry here......."></textarea>
+            <br><br>
+            <input class="btn" type="submit">
+            <input  class="btn" type="reset">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <h2>Volunteer sign up</h2>
+            <form action="">
+                <label for="fname">Full name:</label>
+                <input type="text" name="" id="">
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <input type="text" name="" id="">
+                <br>
+                <br>
+                <label for="id">National ID / Passport </label>
+                <input type="file" name="" id="">
+                <br>
+                <br>
+                <label for="g">Gender:</label>
+                <label for="m">male</label>
+                <input type="radio" name="" id="">
+                <label for="f">female</label>
+                <input type="radio" name="" id="">
+                <br>
+                <br>
+                <label for="time">Availabilty</label>
+                <select name="" id="">
+                    <option value="">weekdays(Mon - Wed)</option>
+                    <option value="">weekdays(Thur & Fri)</option>
+                    <option value="">weekends(Sat & Sun)</option>
+                </select>
+                <br><br>
+                <label for="">Do you have any past experience with mental health pacents, <br>if yes the describe it for us ;</label>
+                <br>
+                <label for="">Yes</label>
+                <input type="checkbox">
+                <label for="">No</label>
+                <input type="checkbox">
+                <br>
+                <br>
+                <textarea name="" id="" cols="70" rows="10" placeholder="type your experience here ....."></textarea>
+                <br><br>
+            <input class="btn" type="submit">
+            <input  class="btn" type="reset">
+            </form>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <h2>Feedback</h2>
+            <p>Share any feedback with us </p>
+            <textarea name="" id="" cols="70" rows="10" placeholder="type feedback here...."></textarea>
+            <br><br>
+            <input class="btn" type="submit">
+            <input  class="btn" type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
